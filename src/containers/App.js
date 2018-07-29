@@ -32,7 +32,7 @@ class App extends React.Component {
       } else {
         return (
           <div className='tc'>
-            <h1 className='f2'>RoboFriends</h1>
+            <h1 className='f2'>React Robo Search</h1>
             <SearchBox searchChange={this.onSearchChange}/>
             <Scroll>
               <CardList robots={filteredRobots} />
